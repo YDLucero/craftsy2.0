@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('./partials/head',{
+    title : 'Detalle: ' + nombre
+}) %>
+<body>
+    <%- include('./partials/header') %>
+<main class="container">
+    <div class="row">
+        <div class="col-12 col-md-10 col-lg-8 my-5 mx-auto">
+            <div class="card">
+                <div class="position-relative">
+                    <img src="/images/<%= imagen %>" class="card-img-top" alt="...">
+                    <span class="fs-2 badge text-bg-<%= categoria === "nuevo" ? 'primary' : categoria === "reacondicionado" ? 'success' : 'warning' %> position-absolute top-50 start-100 translate-middle"><%= categoria %></span>
+                </div>
+               
+                <div class="card-body">
+                  <h5 class="card-title"><%= nombre %></h5>
+                  <p class="card-text"><%= descripcion %></p>
+                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  <div class="mt-4 d-flex flex-column flex-md-row">
+                    <% productosRelacionados.forEach(({id, imagen, nombre, descripcion}) => { %>
+                        <%- include('./partials/cardProduct', {
+                            id,
+                            imagen,
+                            nombre,
+                            descripcion
+                        })  %>
+                    <% }) %>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</main>
+
+    <%- include('./partials/scripts') %>
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Samsumg S10",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-01.jpg",
+        "categoria" : "reacondicionado"
+    },
+    {
+        "id" : 2,
+        "nombre" : "Motorola X-Play",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-02.jpg",
+        "categoria" : "nuevo"
+    },
+    {
+        "id" : 3,
+        "nombre" : "Nokia 1100",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-03.jpg",
+        "categoria" : "nuevo"
+    },
+    {
+        "id" : 4,
+        "nombre" : "Iphone 11",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-01.jpg",
+        "categoria" : "reacondicionado"
+    },
+    {
+        "id" : 5,
+        "nombre" : "Blackberry Q",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-02.jpg",
+        "categoria" : "usado"
+    },
+    {
+        "id" : 6,
+        "nombre" : "Philips",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-03.jpg",
+        "categoria" : "usado"
+    },
+    {
+        "id" : 7,
+        "nombre" : "Acatel X",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-01.jpg",
+        "categoria" : "reacondicionado"
+    },
+    {
+        "id" : 8,
+        "nombre" : "TCL Premium",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-02.jpg",
+        "categoria" : "nuevo"
+    }
+]
